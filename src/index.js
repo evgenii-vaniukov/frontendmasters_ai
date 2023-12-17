@@ -1,3 +1,3 @@
-import OpenAI from "openai";
-
-const openai = new OpenAI({});
+import "dotenv/config";
+import {chat} from "./chat.js";
+chat();
