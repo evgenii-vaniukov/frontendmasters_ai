@@ -45,9 +45,6 @@ export const chat = () => {
     });
   };
 
-  start();
   console.log("\n\nAI: How can I help you today?\n\n");
+  start();
 };
-
-console.log("Chatbot initialized. Type 'exit' to end the chat.");
-chat();
